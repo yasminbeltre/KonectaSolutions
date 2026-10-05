@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Konecta Solutions | Automatización Inteligente</title>
+    <style>
+        /* Estilo Minimalista y Tecnológico */
+        * { box-sizing: border-box; margin: 0; padding: 0; font-family: 'Helvetica Neue', Arial, sans-serif; }
+        body { background-color: #ffffff; color: #1A1D20; line-height: 1.6; }
+        
+        /* Cabecera */
+        header { width: 100%; max-width: 1100px; margin: 0 auto; padding: 20px; display: flex; justify-content: space-between; align-items: center; }
+        .logo-main { font-weight: bold; font-size: 22px; color: #1A1D20; letter-spacing: -0.5px; }
+        .logo-main span { color: #00E676; } /* Verde/Azul tecnológico de acento */
+        .btn-header { background-color: #1A1D20; color: #ffffff; padding: 10px 20px; text-decoration: none; border-radius: 6px; font-size: 14px; font-weight: 500; transition: 0.2s; }
+        .btn-header:hover { background-color: #33393f; }
+
+        /* Sección Principal (Hero) */
+        .hero { max-width: 800px; margin: 80px auto 60px auto; text-align: center; padding: 0 20px; }
+        .hero h1 { font-size: 46px; font-weight: 700; line-height: 1.2; letter-spacing: -1px; margin-bottom: 24px; color: #1A1D20; }
+        .hero p { font-size: 18px; color: #666; margin-bottom: 32px; max-width: 650px; margin-left: auto; margin-right: auto; }
+        .btn-hero { background-color: #1A1D20; color: #ffffff; padding: 16px 32px; text-decoration: none; border-radius: 8px; font-size: 16px; font-weight: 600; display: inline-block; transition: 0.3s; box-shadow: 0 4px 12px rgba(0,0,0,0.05); }
+        .btn-hero:hover { background-color: #00E676; transform: translateY(-2px); }
+
+        /* Sección Producto Estrella */
+        .product-section { background-color: #f8f9fa; padding: 80px 20px; text-align: center; border-top: 1px solid #eaeaea; }
+        .logo-product { font-size: 28px; font-weight: 700; color: #1A1D20; margin-bottom: 12px; }
+        .logo-product span { color: #00E676; font-style: italic; }
+        .product-section p { font-size: 16px; color: #666; margin-bottom: 40px; }
+        
+        /* Mosaico de Capturas (Simulación) */
+        .demo-grid { display: flex; justify-content: center; gap: 20px; max-width: 1100px; margin: 0 auto; flex-wrap: wrap; }
+        .demo-card { background: white; border: 1px solid #eaeaea; border-radius: 12px; padding: 15px; width: 230px; box-shadow: 0 4px 6px rgba(0,0,0,0.02); text-align: left; }
+        .demo-card img { width: 100%; border-radius: 8px; margin-bottom: 12px; border: 1px solid #f0f0f0; }
+        .demo-card h3 { font-size: 14px; font-weight: 600; margin-bottom: 6px; color: #1A1D20; }
+        .demo-card p { font-size: 12px; color: #777; line-height: 1.4; margin-bottom: 0; }
+
+        /* Pie de página */
+        footer { padding: 40px 20px; text-align: center; font-size: 13px; color: #999; border-top: 1px solid #eaeaea; background: #fff; }
+    </style>
+</head>
+<body>
+
+    <!-- Cabecera -->
+    <header>
+        <div class="logo-main">KONECTA<span>SOLUTIONS</span></div>
+        <a href="https://wa.link" target="_blank" class="btn-header">Probar Demo</a>
+    </header>
+
+    <!-- Sección de Impacto (Hero) -->
+    <section class="hero">
+        <h1>Tu WhatsApp nunca duerme.<br>Tu negocio tampoco debería.</h1>
+        <p>Automatizamos las respuestas, el soporte y el agendamiento de citas de tu empresa con Inteligencia Artificial. Menos respuestas tardías, más ventas cerradas.</p>
+        <a href="https://wa.link" target="_blank" class="btn-hero">🚀 Activar mi Demo Gratis de KonectaYa</a>
+    </section>
+
+    <!-- Sección de Demostración Visual -->
+    <section class="product-section">
+        <div class="logo-product">Konecta<span>Ya</span></div>
+        <p>Respuestas automáticas e inteligentes directo al WhatsApp de tus clientes.</p>
+        
+        <div class="demo-grid">
+            <!-- Tarjeta Paso 1 -->
+            <div class="demo-card">
+                <img src="paso1.png" alt="Paso 1 - Despliegue">
+                <h3>1. Respuesta Inmediata</h3>
+                <p>Bienvenida automática 24/7 y despliegue instantáneo de tu menú de servicios.</p>
+            </div>
+            <!-- Tarjeta Paso 2 -->
+            <div class="demo-card">
+                <img src="paso2.png" alt="Paso 2 - Agenda">
+                <h3>2. Consulta de Agenda</h3>
+                <p>La IA revisa los espacios disponibles en tiempo real y ofrece opciones claras.</p>
+            </div>
+            <!-- Tarjeta Paso 3 -->
+            <div class="demo-card">
+                <img src="paso3.png" alt="Paso 3 - Reserva">
+                <h3>3. Reserva Autónoma</h3>
+                <p>El cliente selecciona su horario y la cita se registra sola en tu calendario.</p>
+            </div>
+            <!-- Tarjeta Paso 4 -->
+            <div class="demo-card">
+                <img src="paso4.png" alt="Paso 4 - Confirmación">
+                <h3>4. Recordatorio Inteligente</h3>
+                <p>El sistema notifica automáticamente al cliente horas antes para confirmar asistencia.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pie de Página -->
+    <footer>
+        &copy; 2026 Konecta Solutions. Todos los derechos reservados. | Diseñado de forma minimalista para el lanzamiento oficial.
+    </footer>
+
+</body>
+</html>
